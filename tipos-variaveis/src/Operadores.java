@@ -47,6 +47,12 @@ public class Operadores {
 
         String resultado2 = a > b ? "Sim" : "Não";
         System.out.println(resultado2);
+
+        String nomeUm, nomeDois;
+        nomeUm = "Eliza";
+        nomeDois = new String ("Eliza");
+
+        System.out.println(nomeUm.equals(nomeDois));
 //-------------------------------------------------
     }
 }
