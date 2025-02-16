@@ -20,13 +20,33 @@ public class Operadores {
         //modulo resto da divisão
         int modulo = 18 % 3;
         //ordem de precedencia
-        double resultado = (10 * 7) + (20 / 4);
+        double resultado1 = (10 * 7) + (20 / 4);
 
         System.out.println (soma);
         System.out.println (subtracao);
         System.out.println (multiplicacao);
         System.out.println (divisao);
         System.out.println (modulo);
-        System.out.println (resultado);
+        System.out.println (resultado1);
+
+//----------------------------------------------
+        //Operador ternario 
+
+        int a, b;
+        a = 5;
+        b = 7;
+
+        String resultado = a==b ? "verdadeiro" : "false";
+
+        System.out.println(resultado);
+//------------------------------------------------- 
+            //Operadores relacionais
+        int c, d;
+        a = 10;
+        d = 89;
+
+        String resultado2 = a > b ? "Sim" : "Não";
+        System.out.println(resultado2);
+//-------------------------------------------------
     }
 }
