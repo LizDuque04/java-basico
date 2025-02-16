@@ -6,6 +6,7 @@ public class TiposVariaveis {
         final String PAISORIGEM = "Brasil";
         Character genero = 'F';
         float salarioBase = 1500;
+        short numero = 1;
 
         System.out.println(nome);
         System.out.println(idade);
@@ -13,5 +14,6 @@ public class TiposVariaveis {
         System.out.println(PAISORIGEM);
         System.out.println(genero);
         System.out.println(salarioBase);
+        System.out.println(numero);
     }
 }
