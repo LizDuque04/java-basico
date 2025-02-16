@@ -53,6 +53,21 @@ public class Operadores {
         nomeDois = new String ("Eliza");
 
         System.out.println(nomeUm.equals(nomeDois));
+        //para número nós utilizamos os operadores relacionais.
+        //Para objetos nós usamos o equals
 //-------------------------------------------------
+        //Operadores Lógicos.
+
+        boolean condicao1, condicao2;
+
+        condicao1 = true;
+        condicao2 = false;
+
+        if (condicao1 && condicao2){
+            System.out.println("As duas condições são verdadeiras");
+        }else{
+            System.out.println("fim");
+        }
+//---------------------------------------------------
     }
 }
