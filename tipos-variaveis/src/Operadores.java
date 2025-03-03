@@ -1,5 +1,5 @@
 public class Operadores {
-    public static void main(String[] args) {
+        public static void main(String[] args) {
         //concatenação
         String nome_Completo = "Elizabete " + "Duque";
         System.out.println(nome_Completo);
@@ -64,10 +64,10 @@ public class Operadores {
         condicao2 = false;
 
         if (condicao1 && condicao2){
-            System.out.println("As duas condições são verdadeiras");
+        System.out.println("As duas condições são verdadeiras");
         }else{
-            System.out.println("fim");
+        System.out.println("fim");
         }
 //---------------------------------------------------
-    }
+}
 }
