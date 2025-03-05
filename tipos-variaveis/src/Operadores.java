@@ -42,7 +42,7 @@ public class Operadores {
 //------------------------------------------------- 
             //Operadores relacionais
         int c, d;
-        a = 10;
+        c = 10;
         d = 89;
 
         String resultado2 = a > b ? "Sim" : "Não";
